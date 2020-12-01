@@ -1,6 +1,8 @@
 body{
     background-color: rgb(227, 236, 243);
 }
+
+@media(min-width:900px){
 table,tr,td,th{
     border: 1px solid black;
     border-collapse: collapse;   
@@ -11,6 +13,21 @@ table,tr,td,th{
     font-size: large;
     background-color: #ffffff;
 }
+}
+@media(max-width:899px){
+    table,tr,td,th{
+        border: 1px solid black;
+        border-collapse: collapse;   
+        padding:7px;
+        line-height: 1.5;
+        margin: auto;
+        font-size: large;
+        background-color: #ffffff;
+    }
+    table,tr,td,th{
+        width: 75%;
+    }
+    }
 th{
     text-align: left;
 }
