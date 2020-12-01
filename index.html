@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project with tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="main-heading">Bill Receipt</h1>
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="3" class="col-with-color"><span>Invoice#12345ABC</span></td>
+                <td colspan="1" class="col-with-color"><span>01 December 2020</span></td>
+            </tr>            
+            <tr>
+                <td colspan="2"><span>Pay To:</span><br>
+                Ben George Koshy<br>
+                Valiyaveettil<br>
+                Pallickal</td>
+                <td colspan="2"><span>Customer:</span><br>
+                    Jen George Koshy<br>
+                    Valiyaveettil<br>
+                    Pallickal
+                </td>
+            </tr>
+            <tr class="col-with-color">
+                <th>Name/Description</th>
+                <th>Quantity</th>
+                <th>MRP</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Biriyani</td>
+                <td>3</td>
+                <td>150</td>
+                <td>450</td>
+            </tr>
+            <tr>
+                <td>Porotta</td>
+                <td>15</td>
+                <td>10</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="col-with-color"><span>Subtotal:</span></td>
+                <td>600</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="col-with-color"><span>Tax:</span></td>
+                <td>18%</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="col-with-color"><span>Grandtotal:</span></td>
+                <td>780</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

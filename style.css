@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(227, 236, 243);
+}
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;   
+    width:750px;
+    padding:7px;
+    line-height: 1.5;
+    margin: auto;
+    font-size: large;
+    background-color: #ffffff;
+}
+th{
+    text-align: left;
+}
+span{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.col-with-color{
+    background-color: rgb(148, 204, 241);
+}
